@@ -8,12 +8,13 @@ export const LoginDivision = styled.div`
   margin: 30px;
   padding: 70px;
   border: 4px solid #ffffff;
+  background-color: blue;
 `;
 export const LoginLeftSide = styled.div`
   width: 45%;
 `;
 export const LoginRightSide = styled.div`
-  background-color: ${(props) => props.theme.whiteIcon};
+  background-color: ${(props) => props.theme.black};
   padding: 20px;
   padding-left: 20px;
   width: 40%;
@@ -41,6 +42,6 @@ export const DontHaveAccount = styled.div`
   padding-top: 10px;
 `;
 export const Registers = styled.span`
-  color: ${(props) => props.theme.black};
+  color: blue;
   cursor: pointer;
 `;

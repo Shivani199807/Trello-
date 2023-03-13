@@ -18,10 +18,9 @@ export const CardListHeader = styled.div`
   height: 100%;
 `;
 export const CardListWrapper = styled.div`
+  background-color: #c0c0c0;
   min-width: 170px;
   height: 88vh;
-  // position: relative;
-  /* overflow: auto; */
 `;
 export const CardHeadAdding = styled.div`
   display: flex;

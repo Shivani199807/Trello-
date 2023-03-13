@@ -1,6 +1,6 @@
 import TextInput from "../components/atoms/TextInput";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import bg from "../assets/TrelloMainImage.png";
 import validations from "../validations/CommonValidation";
 import { useForm } from "react-hook-form";
@@ -53,7 +53,7 @@ const Login = () => {
           </LoginHeading>
 
           <div className="form">
-            <TextMargins className="mb-5">
+            <TextMargins>
               <TextInput
                 type="text"
                 registerProps={register("email", EMAIL)}
@@ -63,7 +63,7 @@ const Login = () => {
               />
             </TextMargins>
 
-            <TextMargins className="mb-4">
+            <TextMargins>
               <TextInput
                 type="password"
                 registerProps={register("password", PASSWORD)}
@@ -74,7 +74,7 @@ const Login = () => {
               />
             </TextMargins>
 
-            <div className="mb-6">
+            <div>
               <Button onClick={handleSubmit(submitHandler)}>Login</Button>
               {buttonColor == "red" ? (
                 <div style={{ color: "red" }}>

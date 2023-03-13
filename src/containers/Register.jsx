@@ -45,7 +45,7 @@ const Register = () => {
           </LoginHeading>
 
           <div className="form">
-            <TextMargins className="mb-5">
+            <TextMargins>
               <TextInput
                 type="text"
                 registerProps={register("name", NAME)}
@@ -54,7 +54,7 @@ const Register = () => {
                 placeholder={"User Name"}
               />
             </TextMargins>
-            <TextMargins className="mb-5">
+            <TextMargins>
               <TextInput
                 type="text"
                 registerProps={register("email", EMAIL)}
@@ -64,7 +64,7 @@ const Register = () => {
               />
             </TextMargins>
 
-            <TextMargins className="mb-4">
+            <TextMargins>
               <TextInput
                 type="password"
                 registerProps={register("password", PASSWORD)}

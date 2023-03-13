@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
 `;
 export const HeaderLogoContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-items: space-between;
   align-items: center;
   padding: 20px;
