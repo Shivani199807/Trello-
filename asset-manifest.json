@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Shivani199807/Trello-/static/css/main.fef7469d.css",
+    "main.js": "/Shivani199807/Trello-/static/js/main.ba408a70.js",
+    "static/media/TrelloMainImage.png": "/Shivani199807/Trello-/static/media/TrelloMainImage.9668e2eddf5a0c3c8f0e.png",
+    "static/media/Tasks.png": "/Shivani199807/Trello-/static/media/Tasks.f5c1e745f1d1d58f2655.png",
+    "static/media/hide.png": "/Shivani199807/Trello-/static/media/hide.54b3107d160578572bcc.png",
+    "index.html": "/Shivani199807/Trello-/index.html",
+    "main.fef7469d.css.map": "/Shivani199807/Trello-/static/css/main.fef7469d.css.map",
+    "main.ba408a70.js.map": "/Shivani199807/Trello-/static/js/main.ba408a70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fef7469d.css",
+    "static/js/main.ba408a70.js"
+  ]
+}
