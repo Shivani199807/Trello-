@@ -32,7 +32,7 @@ const Login = () => {
   const submitHandler = async ({ email, password }) => {
     const user = JSON.parse(userDetails);
     console.log(user.email);
-    if (user.email !== email && user.password !== password) {
+    if (user.email !== email || user.password !== password) {
       setButtonColor("red");
     } else {
       navigate("/board");
