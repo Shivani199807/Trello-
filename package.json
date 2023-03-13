@@ -2,10 +2,12 @@
   "name": "trello-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Shivani199807/Trello-",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.6",
+    "babel-eslint": "^10.1.0",
     "bootstrap": "^5.2.3",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
@@ -15,6 +17,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-beautiful-dnd": "^11.0.5",
@@ -24,19 +27,18 @@
     "react-redux": "^7.1.1",
     "react-router": "^6.9.0",
     "react-router-dom": "^6.9.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.4",
     "redux-devtools": "^3.5.0",
     "styled-components": "^4.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts   start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "build": "react-scripts build "
   },
   "browserslist": {
     "production": [
