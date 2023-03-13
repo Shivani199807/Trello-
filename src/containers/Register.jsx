@@ -30,7 +30,7 @@ const Register = () => {
       "UserDetails",
       JSON.stringify({ email, password, name })
     );
-    navigate("/login");
+    navigate("/");
   };
 
   return (
