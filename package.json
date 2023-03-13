@@ -2,7 +2,6 @@
   "name": "trello-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Shivani199807/Trello-",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
@@ -36,8 +35,6 @@
     "start": "react-scripts   start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build "
   },
   "browserslist": {

@@ -6,7 +6,7 @@ import Login from "../containers/login";
 import Register from "../containers/Register";
 const Routing = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route path="/board" element={<Trello />} />
 
