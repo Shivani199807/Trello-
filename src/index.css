@@ -1,0 +1,10 @@
+html,
+body {
+  background-color: #faf9f6;
+  color: white;
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
