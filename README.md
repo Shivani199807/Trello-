@@ -3,12 +3,19 @@
 A Trello board with React + Redux
 
 
+## for login 
+first we need to register the account
+after that it will move us to the login account
+then we can enter to board 
+
 ## Features
  -Login functionality
  -Register functionality 
  -drag and droppable functionality
  -add new task in card
  -view detailed task
+ -protected routes. Cannot access the main route without login ex - /board
+ -
 
 
 ## Available Scripts
