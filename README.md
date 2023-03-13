@@ -1,8 +1,7 @@
 ## Summary
 
-A Trello board clone made with React + Redux
+A Trello board with React + Redux
 
-![Trello Board](./Screenshot_1.png)
 
 ## Features
  -Login functionality
